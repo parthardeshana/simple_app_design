@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.card-wrapper {
+  height:300px;
+  padding: 4%;
+}
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: #E5E5E5 ;
+}
+.card-bg{
+  background-color: #00D1C1 !important;
+}
+.mainContent{ 
+  position: absolute;
+  margin-top: -210px;
+}
+.brandCard{
+  cursor: pointer;
+}
+.icon-style{
+  margin: 5px;
+}
+.table th,.table td {
+  width: 200px;
+}
+
+
+._icon:hover {
+  color: #00D1C1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media(max-width:525px){
+  .card-wrapper {
+    padding: 11% 4%;
+}
+}
